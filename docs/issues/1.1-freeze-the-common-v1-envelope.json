@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Freeze the common v1 envelope",
+  "context": "The envelope, error, and pagination types are the base contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review and freeze common/v1.",
+    "expected_outcome": "Consumers can generate stable common types.",
+    "acceptance_criteria": [
+      "Field numbers are documented",
+      "buf lint passes"
+    ]
+  },
+  "attempts": []
+}

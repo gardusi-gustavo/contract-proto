@@ -1,0 +1,18 @@
+{
+  "rank": "1.4",
+  "title": "Add buf lint and breaking checks",
+  "context": "Contract CI only checks file shape.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Install buf in CI and run lint/breaking.",
+    "expected_outcome": "A breaking proto change fails CI.",
+    "acceptance_criteria": [
+      "buf lint runs",
+      "buf breaking runs against main"
+    ]
+  },
+  "attempts": []
+}

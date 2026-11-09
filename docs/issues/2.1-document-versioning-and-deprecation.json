@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document versioning and deprecation",
+  "context": "Contract versioning is only implied.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Write the versioning policy.",
+    "expected_outcome": "A contributor knows when to cut v2.",
+    "acceptance_criteria": [
+      "Field-number rules exist",
+      "Deprecation path exists"
+    ]
+  },
+  "attempts": []
+}

@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Freeze the dataset event",
+  "context": "The dataset event is the first real contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review and freeze events/v1/dataset_updated.proto.",
+    "expected_outcome": "The event has a stable shape.",
+    "acceptance_criteria": [
+      "Fields map to package-json",
+      "Compatibility note exists"
+    ]
+  },
+  "attempts": []
+}

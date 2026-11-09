@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package gardusi.events.v1;
+
+message DatasetUpdated {
+  string domain = 1;
+  string date = 2;
+  string path = 3;
+  string sha256 = 4;
+  int64 item_count = 5;
+}

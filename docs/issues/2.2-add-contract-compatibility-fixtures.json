@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Add contract compatibility fixtures",
+  "context": "No fixtures pin the current contract.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add golden fixtures for each message.",
+    "expected_outcome": "Compatibility tests use committed fixtures.",
+    "acceptance_criteria": [
+      "Fixtures cover common types",
+      "Fixtures are versioned"
+    ]
+  },
+  "attempts": []
+}

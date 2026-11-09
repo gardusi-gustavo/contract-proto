@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package gardusi.services.v1;
+
+import "common/v1/envelope.proto";
+
+service IngestionService {
+  rpc Publish(DatasetUpdated) returns (gardusi.common.v1.Envelope);
+  rpc Status(StatusRequest) returns (StatusResponse);
+}
+
+message DatasetUpdated {
+  string domain = 1;
+  string date = 2;
+  string path = 3;
+  string sha256 = 4;
+  int64 item_count = 5;
+}
+
+message StatusRequest {
+  string run_id = 1;
+}
+
+message StatusResponse {
+  string run_id = 1;
+  string state = 2;
+  int64 item_count = 3;
+}

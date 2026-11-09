@@ -1,0 +1,18 @@
+{
+  "rank": "1.6",
+  "title": "Add JSON mapping examples",
+  "context": "The proto-to-JSON mapping is not documented.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document field names and JSON representation.",
+    "expected_outcome": "A JSON example matches the proto.",
+    "acceptance_criteria": [
+      "Example validates against package-json",
+      "Naming rules are explicit"
+    ]
+  },
+  "attempts": []
+}

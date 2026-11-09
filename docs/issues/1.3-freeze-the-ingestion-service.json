@@ -1,0 +1,18 @@
+{
+  "rank": "1.3",
+  "title": "Freeze the ingestion service",
+  "context": "The service contract is the first RPC surface.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Review and freeze services/v1/ingestion.proto.",
+    "expected_outcome": "The service can be generated in Go and Python.",
+    "acceptance_criteria": [
+      "Methods are documented",
+      "Error mapping is documented"
+    ]
+  },
+  "attempts": []
+}

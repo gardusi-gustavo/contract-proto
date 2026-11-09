@@ -1,0 +1,18 @@
+{
+  "rank": "1.5",
+  "title": "Add generated stubs in CI",
+  "context": "Generated stubs are not yet produced.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Run buf generate in CI for Go, Python, and TS.",
+    "expected_outcome": "Stub generation is reproducible.",
+    "acceptance_criteria": [
+      "Generated output is ignored by Git",
+      "Three languages build"
+    ]
+  },
+  "attempts": []
+}
