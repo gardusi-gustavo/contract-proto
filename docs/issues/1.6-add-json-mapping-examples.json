@@ -10,7 +10,7 @@
     "summary": "Document field names and JSON representation.",
     "expected_outcome": "A JSON example matches the proto.",
     "acceptance_criteria": [
-      "Example validates against package-json",
+      "Example validates against contract-json",
       "Naming rules are explicit"
     ]
   },

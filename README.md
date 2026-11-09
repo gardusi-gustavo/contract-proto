@@ -1,4 +1,4 @@
-# package-proto
+# contract-proto
 
 Pure protobuf/gRPC contract registry.
 

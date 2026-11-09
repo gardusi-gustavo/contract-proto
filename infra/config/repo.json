@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "name": "package-proto",
+  "name": "contract-proto",
   "organization": "gardusi-gustavo",
   "layer": 2,
   "kind": "contract",

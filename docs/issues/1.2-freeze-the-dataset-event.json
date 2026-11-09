@@ -10,7 +10,7 @@
     "summary": "Review and freeze events/v1/dataset_updated.proto.",
     "expected_outcome": "The event has a stable shape.",
     "acceptance_criteria": [
-      "Fields map to package-json",
+      "Fields map to contract-json",
       "Compatibility note exists"
     ]
   },
